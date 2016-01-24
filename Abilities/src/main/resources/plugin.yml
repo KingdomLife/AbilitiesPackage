@@ -1,0 +1,8 @@
+name: Abilities
+main: com.patrickzhong.abilities.Abilities
+version: 1
+
+commands:
+  totem:
+    description: Spawns a Chicken Totem
+    usage: /<command> [amount]
