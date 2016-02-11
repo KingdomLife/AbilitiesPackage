@@ -401,7 +401,8 @@ public class Abilities extends JavaPlugin implements Listener{
 				}
 			}
 		}
-		else if(victim instanceof Chicken && !(damager instanceof Monster || damager instanceof Slime || (damager instanceof Projectile && ((Projectile)damager).getShooter() instanceof Monster)) && chickens.containsKey(victim)){
+		else if(victim instanceof Chicken && /*!(damager instanceof Monster || damager instanceof Slime || (damager instanceof Projectile && ((Projectile)damager).getShooter() instanceof Monster)) &&*/
+				chickens.containsKey(victim)){
 			ev.setCancelled(true);
 		}
 		else if(victim instanceof Player && damager instanceof Silverfish && friendlyFish.contains(damager)){

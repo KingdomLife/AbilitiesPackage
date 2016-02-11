@@ -1,0 +1,8 @@
+name: Smabi
+main: com.patrickzhong.smabi.Smabi
+version: 1
+
+commands:
+  freeze:
+    description: Freezes.
+    usage: /<command> <player>
